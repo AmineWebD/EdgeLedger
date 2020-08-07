@@ -1,0 +1,39 @@
+.box{
+    display: flex;
+    text-align: left;
+}
+
+.box i{
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+#what{
+    display: block;
+}
+
+@media(max-width:500px){
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-split{
+        display: block;
+    }
+
+    .container-split .image{
+        display: none;
+    }
+
+    #clients .client{
+        margin: 0.75rem;
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .container-1-2{
+        flex-direction: column;
+    }
+}
